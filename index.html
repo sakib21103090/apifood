@@ -18,7 +18,7 @@
       <input id="search-field" class="mx-5 p-3 mb-4 bg-secondary-subtle rounded " style="height: 50px;" 
         type="text" placeholder="search"> 
       <button onclick="searchBtn()" style="height: 50px;"  class="bg-secondary-subtle rounded "> 
-         Tipde</button>
+         click</button>
     </div>
     </header>
     <main>
@@ -27,6 +27,25 @@
       <div  id="meal-container" class="row row-cols-1 row-cols-md-3 g-4 m-4 p-4">
        
       </div>
+     
+<!-- Modal -->
+<div class="modal fade" id="foodmodal" tabindex="-1" aria-labelledby="foodmodal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="foodmodaltitle">Food information</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div id="imgT" class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary  bg-danger-subtle" data-bs-dismiss="modal">Close</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
     </main>
 
  
